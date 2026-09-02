@@ -7,13 +7,11 @@ subtitle: "The course was organized by Izabela Mamede, Marcela Ishihara, Victori
 
 **Single-cell** and **spatial transcriptomics** are transforming how we study biology. Traditional approaches often measure gene expression across large populations of cells, which can hide important differences between individual cells. In contrast, single-cell technologies allow us to explore individual cells and their molecular states, while spatial transcriptomics adds another layer by showing where those cells are located and how they are organized within tissues.
 
-![Differences between bulk, single-cell and spatial transcriptomics](images/bulk_sc_spatial.png)
+![From the “smoothie” to the individual ingredients and where they are in the tissue. Bulk RNA sequencing provides an average molecular profile across many cells, while single-cell transcriptomics allows us to distinguish individual cellular populations. Spatial omics goes one step further by revealing where these cells and molecular signals are located within the tissue.](images/bulk_sc_spatial.png)
 
-These technologies open the door to questions that were previously difficult or impossible to answer. Which immune cells are present in a tissue, and how do their states change during inflammation? Which cells are producing inflammatory signals, and which cells are responding to them? How do immune cells interact with epithelial, stromal, or other tissue cells? And where do these interactions occur within the tissue?
+Therefore, these technologies open the door to questions that were previously difficult or impossible to answer. Which immune cells are present in a tissue, and how do their states change during inflammation? Which cells are producing inflammatory signals, and which cells are responding to them? How do immune cells interact with epithelial, stromal, or other tissue cells? And where do these interactions occur within the tissue?
 
-At the same time, working with single-cell and spatial data can feel overwhelming at first. Datasets can be large and complex, terminology can be unfamiliar, and analyses often involve specialized computational tools.
-
-This course is designed to make these technologies more approachable. We will start by exploring user-friendly tools that allow you to interact with single-cell and spatial data without writing code. We will then move into reproducible analysis with R and Python, before exploring how AI can help us write, test, and improve analytical workflows.
+At the same time, working with single-cell and spatial data can feel overwhelming at first. Datasets can be large and complex, terminology can be unfamiliar, and analyses often involve specialized computational tools. This course is designed to make these technologies more approachable. We will start by exploring user-friendly tools that allow you to interact with single-cell and spatial data without writing code. We will then move into reproducible analysis with R and Python, before exploring how AI can help us write, test, and improve analytical workflows.
 
 ## What you will learn
 
@@ -100,6 +98,6 @@ Most importantly, we hope you leave the course feeling that **single-cell and sp
 
 ## Ready to start?
 
-Let's begin by exploring what these datasets actually look like — **without writing a single line of code**.
+Let's begin by exploring what these datasets actually look like **without writing a single line of code**.
 
 [**Start Class 1 →**](classes/class-01.qmd)
