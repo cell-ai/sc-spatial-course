@@ -13,49 +13,54 @@ Therefore, these technologies open the door to questions that were previously di
 
 At the same time, working with single-cell and spatial data can feel overwhelming at first. Datasets can be large and complex, terminology can be unfamiliar, and analyses often involve specialized computational tools. This course is designed to make these technologies more approachable. We will start by exploring user-friendly tools that allow you to interact with single-cell and spatial data without writing code. We will then move into reproducible analysis with R and Python, before exploring how AI can help us write, test, and improve analytical workflows.
 
-## What you will learn
+## What are these technologies, after all?
 
-The course is organized into three progressive classes:
+Before we start exploring the tools and analyses, let's take a moment to understand what **single-cell and spatial transcriptomics** actually measure—and why they are so useful.
 
-::: {.columns}
+### Single-cell transcriptomics
 
-::: {.column width="33%"}
+In a traditional bulk RNA-seq experiment, RNA is collected from a large population of cells and measured together. The resulting expression profile represents an **average across all of those cells**.
 
-### Class 1
+This can be useful, but it can also hide important biological differences. Imagine a tissue containing immune cells, epithelial cells, fibroblasts, and endothelial cells. If all of their RNA is mixed together, we can see which genes are expressed in the tissue overall—but we may not know **which cells are expressing those genes**.
 
-**Explore**
+Single-cell transcriptomics changes this by separating the sample into individual cells—or, more precisely, individual cell-derived measurements—and profiling their gene expression separately.
 
-Learn the concepts behind single-cell and spatial transcriptomics and explore real datasets using user-friendly web-based tools — without writing code.
+Instead of asking:
 
-[Go to Class 1 →](classes/class-01.qmd)
+> *What genes are expressed in this tissue?*
 
-:::
+we can begin to ask:
 
-::: {.column width="33%"}
+> **Which cells are present, what are they expressing, and how do their molecular states differ?**
 
-### Class 2
+This is particularly powerful for studying **immune responses and inflammation**. A tissue that appears to have a strong inflammatory response may contain several different immune populations, each with distinct roles. Single-cell data can help us distinguish these populations and explore their molecular states—for example, identifying activated macrophages, different T-cell states, or inflammatory signaling programs.
 
-**Analyze**
+### Spatial transcriptomics
 
-Open the "black box" and run a complete analysis pipeline using **R and Python**, including quality control, normalization, clustering, annotation, and functional analysis.
+Single-cell transcriptomics gives us detailed information about **what cells are doing**, but in many experiments we lose an important piece of information: **where those cells were located in the tissue**.
 
-[Go to Class 2 →](classes/class-02.qmd)
+Spatial transcriptomics addresses this by measuring gene expression while preserving information about its **spatial location**.
 
-:::
+This allows us to ask questions such as:
 
-::: {.column width="33%"}
+> **Where are inflammatory cells located?**
 
-### Class 3
+> **Which regions of a tissue show inflammatory activity?**
 
-**Extend**
+> **Are immune cells located close to the cells they may be interacting with?**
 
-Use **AI as a computational copilot** to explore additional analyses, write and debug code, and critically evaluate new analytical approaches.
+> **Do particular cellular states occur in specific tissue structures or microenvironments?**
 
-[Go to Class 3 →](classes/class-03.qmd)
+In other words, spatial transcriptomics allows us to connect **molecular identity with tissue organization**.
 
-:::
+### Putting the pieces together
 
-:::
+Single-cell and spatial transcriptomics therefore provide complementary perspectives:
+
+- **Single-cell:** *Who is there, and what are they doing?*
+- **Spatial:** *Where are they, and what is happening around them?*
+
+Together, these technologies allow us to move beyond simply describing which genes are expressed. We can begin to understand **which cells are involved, how their states change, how they communicate, and where these processes occur within a tissue.**
 
 ## The course at a glance
 
