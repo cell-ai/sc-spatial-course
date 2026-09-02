@@ -11,13 +11,13 @@ website:
 
       - text: Classes
         menu:
-          - href: classes/class-01.qmd
+          - href: index.qmd
             text: "Introduction to the course"
-          - href: classes/class-02.qmd
+          - href: classes/class-01.qmd
             text: "Class 1 — User-Friendly Tools for Single-Cell and Spatial Transcriptomics"
-          - href: classes/class-03.qmd
+          - href: classes/class-02.qmd
             text: "Class 2 — Reproducible Single-Cell and Spatial Analysis with R and Python"
-          - href: classes/class-04.qmd
+          - href: classes/class-03.qmd
             text: "Class 3 — AI-Assisted Single-Cell and Spatial Analysis: Writing, Testing, and Improving Code"
 
   page-footer:
