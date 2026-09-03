@@ -1,6 +1,6 @@
 ---
 title: "Welcome!"
-subtitle: "The course was organized by Izabela Mamede, Marcela Ishihara, Victoria Rojas-Celis and Helder Nakaya"
+subtitle: "The course was held by Helder Nakaya, with the help of Adriana Simizo, Izabela Mamede, Guilherme Mira, Marcela Ishihara and Victoria Rojas-Celis"
 ---
 
 # Material for the Mini Course "Single cell/Spatial Transcriptomics" held @ WCI 2026
