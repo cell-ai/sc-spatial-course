@@ -1,0 +1,4 @@
+---
+title: "Class 2 — Reproducible Single-Cell and Spatial Analysis with R and Python"
+subtitle: "From raw data to biological insight"
+---
