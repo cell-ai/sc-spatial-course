@@ -102,4 +102,4 @@ Most importantly, we hope you leave the course feeling that **single-cell and sp
 
 Let's begin by exploring what these datasets actually look like **without writing a single line of code**.
 
-[**Start Class 1 →**](classes/class-01.qmd)
+[**Start Class 1 →**](classes/class-01.html)
