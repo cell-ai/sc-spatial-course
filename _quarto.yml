@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Single-Cell & Spatial Transcriptomics"
+  title: "Single-Cell & Spatial Transcriptomics course"
 
   navbar:
     left:
@@ -16,21 +16,6 @@ website:
             text: "Class 2 — Reproducible Analysis"
           - href: classes/class-03.qmd
             text: "Class 3 — AI-Assisted Analysis"
-
-  sidebar:
-    style: "docked"
-    contents:
-      - text: "Home"
-        href: index.qmd
-      - section: "Classes"
-        contents:
-          - text: "Class 1 — User-Friendly Tools"
-            href: classes/class-01.qmd
-          - text: "Class 2 — Reproducible Analysis"
-            href: classes/class-02.qmd
-          - text: "Class 3 — AI-Assisted Analysis"
-            href: classes/class-03.qmd
-
 format:
   html:
     theme: cosmo
