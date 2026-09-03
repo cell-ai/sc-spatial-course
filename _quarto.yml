@@ -1,3 +1,6 @@
+project:
+  type: website
+
 website:
   title: "Single-Cell & Spatial Transcriptomics"
 
@@ -5,7 +8,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-
       - text: Classes
         menu:
           - href: classes/class-01.qmd
@@ -24,7 +26,7 @@ website:
         contents:
           - text: "Class 1 — User-Friendly Tools"
             href: classes/class-01.qmd
-          - text: "Class 2 — Analyze data using Python and R"
+          - text: "Class 2 — Reproducible Analysis"
             href: classes/class-02.qmd
           - text: "Class 3 — AI-Assisted Analysis"
             href: classes/class-03.qmd
