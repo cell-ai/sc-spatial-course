@@ -1,8 +1,5 @@
-project:
-  type: website
-
 website:
-  title: "Single cell/Spatial transcriptomics course @ WCI"
+  title: "Single-Cell & Spatial Transcriptomics"
 
   navbar:
     left:
@@ -11,17 +8,12 @@ website:
 
       - text: Classes
         menu:
-          - href: index.qmd
-            text: "Introduction to the course"
           - href: classes/class-01.qmd
-            text: "Class 1 — User-Friendly Tools for Single-Cell and Spatial Transcriptomics"
+            text: "Class 1 — User-Friendly Tools"
           - href: classes/class-02.qmd
-            text: "Class 2 — Reproducible Single-Cell and Spatial Analysis with R and Python"
+            text: "Class 2 — Reproducible Analysis"
           - href: classes/class-03.qmd
-            text: "Class 3 — AI-Assisted Single-Cell and Spatial Analysis: Writing, Testing, and Improving Code"
-
-  page-footer:
-    left: "WCI Mini Course"
+            text: "Class 3 — AI-Assisted Analysis"
 
 format:
   html:
