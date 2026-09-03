@@ -1,0 +1,4 @@
+---
+title: "Class 3 — AI-Assisted Single-Cell and Spatial Analysis"
+subtitle: "Writing, testing, and improving code with AI"
+---
